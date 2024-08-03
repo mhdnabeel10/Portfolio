@@ -6,6 +6,9 @@
     #about-container{
   flex-wrap: wrap;
     }
+    .btn-mode{
+       display: none; 
+    }
 }
 @media screen and (max-width:1200px){
     #desktop-nav{
@@ -44,6 +47,9 @@
         width: 200px;
         margin-left: 220px;
     }
+    .btn-mode{
+        display: none; 
+     }
 }
 @media screen and (max-width:600px){
     #contact,footer{
@@ -87,5 +93,8 @@
         width: 150px;
         margin-left: 89px;
     }
+    .btn-mode{
+        display: none; 
+     }
     
 }
